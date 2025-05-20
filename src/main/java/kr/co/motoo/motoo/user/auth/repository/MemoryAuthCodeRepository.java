@@ -1,4 +1,4 @@
-package kr.co.motoo.motoo.user.auth;
+package kr.co.motoo.motoo.user.auth.repository;
 
 import org.springframework.stereotype.Component;
 

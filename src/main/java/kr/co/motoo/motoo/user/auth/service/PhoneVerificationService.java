@@ -1,4 +1,6 @@
-package kr.co.motoo.motoo.user.auth;
+package kr.co.motoo.motoo.user.auth.service;
+import kr.co.motoo.motoo.user.auth.repository.AuthCode;
+import kr.co.motoo.motoo.user.auth.repository.MemoryAuthCodeRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
@@ -14,7 +16,7 @@ import java.util.Random;
 @Service
 @RequiredArgsConstructor
 @Slf4j
-public class PhoneAuthService {
+public class PhoneVerificationService {
 
     private final MemoryAuthCodeRepository memoryAuthCodeRepository;
 
