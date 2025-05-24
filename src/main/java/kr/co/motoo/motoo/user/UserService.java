@@ -1,5 +1,6 @@
 package kr.co.motoo.motoo.user;
 
+import kr.co.motoo.motoo.user.dto.SignupRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

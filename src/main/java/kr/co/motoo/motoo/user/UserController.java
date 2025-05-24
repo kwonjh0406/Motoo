@@ -1,6 +1,7 @@
 package kr.co.motoo.motoo.user;
 
 import kr.co.motoo.motoo.global.ApiResponse;
+import kr.co.motoo.motoo.user.dto.SignupRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
